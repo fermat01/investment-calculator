@@ -29,7 +29,7 @@ http://localhost:3000
 
 ```
 
-
+ The application can be found [here](https://fermat01.github.io/investment-calculator/).
 
 <img src="public/invest-cal.png"/>
 
