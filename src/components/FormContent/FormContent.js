@@ -2,13 +2,13 @@ import { useState } from 'react';
 import classes from './FormContent.module.css';
 
 const initialUserInput = {
-  'current-savings': 10000,
+  'current-savings': 11000,
   'yearly-contribution': 1200,
-  'expected-return': 7,
+  'expected-return':8 ,
   duration: 10,
 };
 
-const UserInput = (props) => {
+const FormContent = (props) => {
   const [userInput, setUserInput] = useState(initialUserInput);
 
   const submitHandler = (e) => {
@@ -98,4 +98,4 @@ const UserInput = (props) => {
   );
 };
 
-export default UserInput;
+export default FormContent;
